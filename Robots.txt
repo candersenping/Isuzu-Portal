@@ -1,0 +1,8 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: /
+Sitemap: http://forhandler.isuzu.nu
+Sitemap: http://forhandlernet.isuzu.dk
+Sitemap: http://claim.isuzu.dk
+Sitemap: http://ks.isuzu.dk
+

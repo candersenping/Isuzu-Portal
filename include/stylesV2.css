@@ -1,0 +1,176 @@
+a {
+	color: #0000FF;
+}
+body {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	margin: 10px;
+}
+h1 {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 18px;
+}
+
+.register_sale {
+	background-color: #dedede;
+	border-collapse: collapse;
+	border: solid 1px #666666;
+}
+.register_sale th
+{
+    font-size: 13px;
+    background-color: #FF6666;
+    border: solid 1px #666666;
+    color: #ffffff;
+    text-align: left;
+    text-indent: 3px;
+    padding: 5px;
+}
+.register_sale td{
+	border: solid 1px #666666;
+	text-indent: 3px;
+	padding: 3px;
+}
+
+.nestedtable {
+	white-space: nowrap;
+	border: none;
+	width: 100%;
+}
+
+.nestedtable td {
+	white-space: nowrap;
+	border: none;
+}
+
+.nestedtable_header {
+	white-space: nowrap;
+	font-weight: bold;
+	border: none;
+}
+
+.radiobuttons {
+	text-align: left;
+	white-space: nowrap;
+	border: none;
+}
+.radiobuttons th{
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+}
+.radiobuttons td{
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.input {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	width: 140px;
+}
+
+.short_input {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	width: 60px;
+}
+
+input {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+}
+
+.button {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	width: 100px;
+}
+
+.carsearch {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	background-color: #dedede;
+
+	border-collapse: collapse;
+	border: solid 1px #666666;
+}
+.carsearch th{
+	font-size: 11px;
+	background-color: #666666;
+	border: solid 1px #666666;
+	color: #ffffff;
+	text-align: left;
+	text-indent: 3px;
+	padding: 3px;
+}
+.carsearch td{
+	border: solid 1px #666666;
+	text-indent: 3px;
+	padding: 1px;
+}
+
+.carsearch_inner {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #dedede;
+}
+.carsearch_inner td{
+	font-size: 11px;
+	font-weight: bold;
+	border: solid 1px #dedede;
+	text-indent: 3px;
+	padding: 1px;
+}
+.carsearch_input {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	width: 60px;
+}
+
+
+.error {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #dd0000;
+}
+
+.carsearch_result {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	
+	border-collapse: collapse;
+	border: solid 1px #666666;
+}
+.carsearch_result th{
+	font-size: 11px;
+	background-color: #666666;
+	border: solid 1px #666666;
+	color: #ffffff;
+	text-align: left;
+	text-indent: 3px;
+	padding: 5px;
+}
+.carsearch_result td{
+	border: solid 1px #666666;
+	text-indent: 3px;
+	padding: 3px;
+	vertical-align: top;
+}
+.carsearchresult_subheader {
+	white-space: nowrap;
+	vertical-align: middle;
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.info {
+	font-family: Tahoma, Geneva, Verdana, Sans-Serif;
+	font-size: 11px;
+	padding: 10px;
+}

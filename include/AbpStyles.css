@@ -1,0 +1,25 @@
+﻿body {
+}
+
+.IzuzuLabel {
+    cursor: pointer;
+    position: absolute;
+}
+
+.IzuzuDiv {
+    cursor: pointer;
+}
+
+.IzuzuShow {
+    display: block;
+}
+
+.IzuzuHide {
+    display:none;
+}
+
+.TopRightCornor {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

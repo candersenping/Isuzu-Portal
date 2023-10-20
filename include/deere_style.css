@@ -1,0 +1,213 @@
+<style TYPE="text/css">
+A:visited
+{
+    COLOR: #339900
+}
+A:active
+{
+    COLOR: #339900
+}
+A:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+TD
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+TABLE
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+TR
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+BODY
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+P
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px;
+    MARGIN-BOTTOM: 10px;
+    MARGIN-TOP: 0px
+}
+BLOCKQUOTE
+{
+    MARGIN: 0px 0px 0px 15px
+}
+.error
+{
+    COLOR: #ff0000
+}
+HR
+{
+    BORDER-BOTTOM: thin;
+    BORDER-LEFT: thin;
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    COLOR: #666666;
+    FONT-SIZE: 1px;
+    HEIGHT: 1px
+}
+A
+{
+    COLOR: #339900;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px
+}
+.menu
+{
+    COLOR: #000000;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.menu:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menu:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menu:hover
+{
+    COLOR: #ffcc00;
+    TEXT-DECORATION: none
+}
+.menu:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+#none
+{
+    TEXT-DECORATION: none
+}
+DIV
+{
+    MARGIN: 0px
+}
+#menu_text:hover
+{
+    COLOR: #ff9933;
+    TEXT-DECORATION: none
+}
+#underline
+{
+    TEXT-DECORATION: underline
+}
+#menu_text
+{
+    COLOR: #000000
+}
+H5
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    MARGIN: 0px;
+    TOP: 12px
+}
+H4
+{
+    COLOR: #339900;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: 900;
+    MARGIN: 0px 0px 5px
+}
+H2
+{
+    COLOR: #339900;
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold;
+    MARGIN: 0px
+}
+LI
+{
+    COLOR: #006633;
+    LIST-STYLE: square
+}
+.TD1
+{
+    BACKGROUND-COLOR: #f0f9f0
+}
+.TD0
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.small
+{
+    FONT-SIZE: 10px
+}
+#quantity
+{
+    TEXT-ALIGN: right
+}
+FORM
+{
+    MARGIN: 0px
+}
+#error
+{
+    COLOR: #ff0000
+}
+.box
+{
+    BACKGROUND-COLOR: #ffcc00
+}
+H1
+{
+    COLOR: #ffcc00;
+    FONT-SIZE: 20px;
+    MARGIN: 2px 0px
+}
+.aaben
+{
+    COLOR: #000000;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.afsluttet
+{
+    COLOR: #ffcc00;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.godkendt
+{
+    COLOR: #339900;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.afslaaet
+{
+    COLOR: #ff0000;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+H6
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: normal;
+    MARGIN: 0px
+}
+</style>

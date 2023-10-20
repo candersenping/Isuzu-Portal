@@ -1,0 +1,80 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+sub Application_OnStart
+	dim rs, conn, connax, Pi
+	
+	sApplicationRoot = GetApplicationRoot()
+
+	set conn = createobject("ADODB.Connection")
+	webConnectionString = "Provider=SqlOledb;UID=kiaweb;PWD=stop4bud; Initial Catalog=axdb30sp1kia-r; Data Source=172.20.16.57"
+    'webConnectionString = "Provider=SqlOledb;UID=kiaweb;PWD=stop4bud; Initial Catalog=axdb30sp1kia; Data Source=172.20.16.24"
+	conn.open webConnectionString
+
+	set connax = createobject("ADODB.Connection")
+	WebConnectionStringax = "Provider=SqlOledb;UID=kiaweb;PWD=stop4bud; Initial Catalog=axdb30sp1kia-r; Data Source=172.20.16.57"
+	'WebConnectionStringax = "Provider=SqlOledb;UID=kiaweb;PWD=stop4bud; Initial Catalog=axdb30sp1kia; Data Source=172.20.16.24"
+	connax.open WebConnectionStringax
+
+	Application.Lock
+
+	rem -- The next statement will fail if the ADO version is 1.5 or less.
+	on error resume next
+	set application("conn") = conn
+	set application("connax") = connax
+	on error goto 0
+	application("DBFilePath") = DBFilePath
+	application("WebDBFilename") = WebDBFilename
+	application("WebConnectionString") = WebConnectionString
+	application("WebConnectionStringax") = WebConnectionStringax
+	application("ApplicationRoot") = sApplicationRoot
+	application("CountryCode") = "US" 
+	application("appl_Visits") = 0
+	application("appl_Active") = 0
+	application("appl_Start") = Now()
+	application.UnLock
+end sub
+
+sub Application_OnEnd
+
+end sub
+
+Sub Session_OnStart
+	Session ("Sess_Start") = Now()
+	Application.Lock
+	application("appl_Visits") = application("appl_Visits") + 1
+	application("appl_Active") = application("appl_Active") + 1
+	Application.UnLock	
+End Sub
+
+sub Session_OnEnd
+	application("appl_Active") = application("appl_Active") - 1
+end sub
+
+function GetApplicationRoot()
+	Dim fso, f
+	Set fso = CreateObject("Scripting.FileSystemObject")
+	dim p, c
+	root = server.MapPath("/")
+	p = server.MapPath(".")
+	c = 10
+	do	
+		c = c - 1
+		if c=0 then exit do
+		
+		on error resume next
+		Set f = fso.GetFile(p & "\global.asa")
+		on error goto 0
+		if typename(f) = "Empty" then
+			while len(p) > len(root) and mid(p, len(p), 1) <> "\"
+				p = mid(p,1,len(p)-1)
+			wend
+			if mid(p, len(p), 1) = "\" then
+				p = mid(p,1,len(p)-1)
+			end if			
+		else 
+			exit do
+		end if
+	loop 
+	GetApplicationRoot = p
+end function
+</SCRIPT>

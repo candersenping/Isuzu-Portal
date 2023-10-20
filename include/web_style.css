@@ -1,0 +1,231 @@
+<style TYPE="text/css">
+#23
+{
+	Font-size: 28px;
+}
+
+A:visited
+{
+    COLOR: #339900
+}
+A:active
+{
+    COLOR: #339900
+}
+A:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+TD
+{
+    COLOR: #000000;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+TABLE
+{
+    COLOR: #000000;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+TR
+{
+    COLOR: #000000;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+BODY
+{
+    COLOR: #000000;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px
+}
+P
+{
+    COLOR: #000000;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px;
+    MARGIN-BOTTOM: 10px;
+    MARGIN-TOP: 0px
+}
+BLOCKQUOTE
+{
+    MARGIN: 0px 0px 0px 15px
+}
+.error
+{
+    COLOR: #ff0000
+}
+HR
+{
+    BORDER-BOTTOM: thin;
+    BORDER-LEFT: thin;
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    COLOR: #666666;
+    FONT-SIZE: 1px;
+    HEIGHT: 1px
+}
+A
+{
+    COLOR: #339900;
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE: 12px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px
+}
+.menu
+{
+    COLOR: #000000;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.menu:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menu:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menu:hover
+{
+    COLOR: #FF0000;
+    TEXT-DECORATION: none
+}
+.menu:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+#none
+{
+    TEXT-DECORATION: none
+}
+DIV
+{
+    MARGIN: 0px
+}
+#menu_text:hover
+{
+    COLOR: #ff9933;
+    TEXT-DECORATION: none
+}
+#underline
+{
+    TEXT-DECORATION: underline
+}
+#menu_text
+{
+    COLOR: #000000
+}
+H5
+{
+    FONT-FAMILY: Neo Sans, Verdana, geneva, Arial, Helvetica;
+    FONT-SIZE:12px;
+    FONT-WEIGHT: bold;
+    MARGIN: 0px;
+    TOP: 12px
+}
+H4
+{
+    COLOR: #CC3333;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: 900;
+    MARGIN: 0px 0px 5px
+}
+H2
+{
+    COLOR: #CC3333;
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold;
+    MARGIN: 0px
+}
+H7
+{
+    COLOR: #CC3333;
+}
+
+.warning1
+{
+    COLOR: #CC3333;
+    FONT-SIZE: 15px;
+    FONT-WEIGHT: bold;
+    MARGIN: 0px
+}
+LI
+{
+    COLOR: #006633;
+    LIST-STYLE: square
+}
+.TD1
+{
+    BACKGROUND-COLOR: #f0f9f0
+}
+.TD0
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.small
+{
+    FONT-SIZE: 10px
+}
+#quantity
+{
+    TEXT-ALIGN: right
+}
+FORM
+{
+    MARGIN: 0px
+}
+#error
+{
+    COLOR: #ff0000
+}
+.box
+{
+    BACKGROUND-COLOR: #999999
+}
+H1
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    COLOR: #CC3333;
+    FONT-SIZE: 20px;
+    MARGIN: 0px 0px
+}
+.aaben
+{
+    COLOR: #000000;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.afsluttet
+{
+    COLOR: #ffcc00;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.godkendt
+{
+    COLOR: #339900;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.afslaaet
+{
+    COLOR: #ff0000;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+H6
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: normal;
+    MARGIN: 0px
+}
+
+</style>

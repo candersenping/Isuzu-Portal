@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+.formText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F3F3F3;
+	border: 1px inset;
+	border-color: #C3C3C3;
+}
+.formTextFocus {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFD9;
+	border: 1px inset;
+	border-color: #c3c3c3;
+}.Infobox {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFFFE6;
+	border: 1px solid #F00;
+}
+.errorText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 5;
+	margin-top: 5px;
+}
+table {
+	font-size: 12px;
+}
+.HeadText {
+	font-size: 14px;
+	font-weight: bold;
+}
+.HeadText1 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.SavedOk {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #009900;
+	background-color: #FFFFE8;
+	border: 1 solid #666666;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+.smallText {
+	font-size: 9px;
+	font-weight: normal;
+}
+table tr.odd th,
+.odd {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	cursor: pointer;
+	cursor: hand;
+	padding: 1px 6px 2px 4px;
+	background-color: #FFFFFF;	
+}
+
+/* even items 2,4,6,8,... */
+table tr.even th,
+.even {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	cursor: pointer;
+	cursor: hand;
+	padding: 1px 6px 2px 4px;
+	background-color: #F4F4F4;
+}
+.odd:hover,
+.even:hover,
+.hover {
+    background: #FFFFD9;
+    color: #000000;
+	cursor: pointer;
+	cursor: hand;
+}
+.sbutton1 {
+	border-top: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;
+	background-color: #E2E2E2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	padding: 3px;
+	cursor:pointer;
+	cursor:hand;
+}
+.tableOversigt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	border: 1px solid #999999;
+	background-color: #FFF;
+}
+.tableOversigtTd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #999999;
+}
+.redText {
+	color: #F00;
+	font-size: 10px;
+}
+.greenText {
+	color: #3C0;
+	font-size: 10px;
+}
+.smallText10 {
+	font-size: 10px;
+	font-weight: normal;
+}
+.smallText11 {
+	font-size: 11px;
+	font-weight: normal;
+}
+.InfoboxHL {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFFFAE;
+}
+.okText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #090;
+}
